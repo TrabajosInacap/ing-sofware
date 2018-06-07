@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear publicación</title>
+    <link rel="stylesheet" href="css/crearpublicacion.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="fas fa-dove">un nuevo hogar</h1>
+            
+            <input type="checkbox" id="menu-bar" name="menu-bar">
+            <label for="menu-bar" class="fas fa-bars" id="label"></label>
+            <nav class="menu">
+                <a href="">Buscar mascota</a>
+                <a href="">Informacion de mascotas</a>
+                <a href="">Noticias de mascotas</a>
+                <a href="">Nosotros</a>
+                <a href="">Administrador</a>
+            </nav>
+        
+        </div>
+    </header>
+<main>
+    <section>
+    <form action="registrarpublicacion.php" method="post" class="form-register">
+        <h2 class="form-titulo">CREAR PUBLICACIÓN</h2>
+        <div class="contenedor-inputs">
+           <p>Nombre</p>
+            <input type="text" name="nombre" placeholder="nombre" class="input-100" required maxlength="30">
+            <p>Ingrese su ubicacion (Direccion donde se realizara la adopcion)</p>
+            <input type="text" name="ubicacion" placeholder="ubicacion del animal" class="input-100" required maxlength="80">
+            <p>Ingrese edad del animal</p>
+            <input type="text" name="edad" placeholder="edad aproximada del animal" class="input-100" required maxlength="100">
+            <p>Sexo</p>
+            <select id="sexo-mascota">
+                <option value="macho">Macho</option>
+                <option value="hembra">Hembra</option>
+            </select>
+            <p>¿Posee microchip?</p>
+            <select  id="microchip">
+                <option value="michochip-si">Si</option>
+                <option value="microchip-no">No</option>
+            </select>
+            <p>Numero de contacto</p>
+            <input type="text" name="numero" placeholder="Numero contacto" class="input-100" required maxlength="20">
+            <p>Suba imagen de su mascota (Obligatorio).</p>
+            <input name="uploadedfile" type="file" />
+            <input type="submit" value="Crear publicación" class="btn-enviar">
+            
+        </div>
+    </form>
+    </section>
+</main>
+    <footer>
+       <div class="contenedor">
+           <p class="copy">Un nuevo hogar &copy; 2018</p>
+        <div class="sociales">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter-square"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+       </div>
+    </footer>
+</body>
+</html>

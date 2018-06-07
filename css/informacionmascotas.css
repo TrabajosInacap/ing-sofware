@@ -1,0 +1,64 @@
+
+@import url(footer.css);
+@import url(header.css);
+main{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+section{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+#portada-infom .contenedor{
+margin-top: 50px;
+background: #009CED;
+display: flex;
+flex-wrap: wrap;
+}
+#portada-infom .contenedor h1{
+    width: 50%;
+    color: #fff;
+}
+#portada-infom .contenedor select{
+  width: 20%;
+  overflow: hidden;
+    padding: 5px 8px;
+    border: 1px solid black;
+    box-shadow: none;
+    background-color: white;
+     
+}
+#portada-infom .contenedor h3{
+    width: 20%;
+}
+.publi-infom .contenedor{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #f4f1bb;
+    position: relative;
+    height: 200px;
+    border-top-left-radius: 5%;
+     
+}
+.publi-infom .contenedor h1{
+    width: 60%;
+}
+.publi-infom .contenedor p{
+    width: 60%;
+}
+.publi-infom .contenedor h3{
+    width: 60%;
+}
+.publi-infom .contenedor img{
+position: absolute;
+    width: 40%;
+    height: 100%;
+    margin-left: 60%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+

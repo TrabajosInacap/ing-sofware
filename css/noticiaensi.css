@@ -1,0 +1,78 @@
+@import url(footer.css);
+@import url(header.css);
+main{
+    width: 100%;
+    height: auto;
+    min-height:650px;
+}
+section{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    
+    
+}
+hr{
+    margin: 18px 0;
+    border: 1px solid #fff;
+    width: 100%;
+}
+.contenedor2{
+    background: #F0ECE0;
+    width: 1000px;
+    margin: auto;
+}
+#seccion{
+    margin-top: 50px;
+}
+#seccion h1{
+    width: 50%;
+    background-image:url(../img/imagenseccion.png);
+ background-size: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+#titulo-noticia{
+    display: flex;
+    flex-wrap: wrap;
+}
+#titulo-noticia h1{
+    font-size: 26px;
+    width: 50%;
+}
+#titulo-noticia h3{
+    font-size: 15px;
+    
+}
+#titulo-noticia p{
+    width: 50%;
+    text-align: right;
+    color: darkgray;
+}
+#cuerpo-noticia{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    min-height:480px;
+}
+#cuerpo-noticia p{
+    font-size: 18px;
+    width: 50%;
+}
+#cuerpo-noticia img{
+    width: 50%;
+    height: 300px;
+}
+#cuerpo-noticia h3{
+    width: 100%;
+    text-align: right;
+    color: chocolate
+}
+#cuerpo-noticia h3 a{
+    text-decoration: none;
+    color: brown;
+    
+}
+#cuerpo-noticia h3 a:visited{
+    color: brown;
+}

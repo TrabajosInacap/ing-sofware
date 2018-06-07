@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/crearinformacion.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <div class="contenedor">
+            <h1  class="fas fa-dove">Un nuevo hogar</h1>
+            
+            
+            <input type="checkbox" id="menu-bar" name="menu-bar">
+            <label for="menu-bar" class="fas fa-bars" id="label"></label>
+            <nav class="menu">
+                <a href="">Noticias</a>
+                <a href="">Cerrar Sesion</a>
+            </nav>
+        
+        </div>
+        </header>
+        
+        <main>
+    <section>
+    <form action="registrarpublicacion.php" method="post" class="form-register">
+        <h2 class="form-titulo">Crear informacion </h2>
+        <div class="contenedor-inputs">
+          
+            <p>Titulo</p>
+            <input type="text" name="ubicacion"  class="input-100" required maxlength="80">
+            <p>Bajada de titulo</p>
+            <input type="text" name="edad"  class="input-100" required maxlength="100">
+            
+            <p>Cuerpo de la informacion</p>
+            
+              <!-- <input id="form" type="text" name="numero"  class="input-100" required maxlength="2000" > -->
+            
+            <br>
+            <textarea rows="30" cols="150" name="comment" form="form"> Ingrese cuerpo de la noticia</textarea>
+
+            
+            
+            <p>Imagen para la informacion (Obligatorio).</p> 
+            <input name="uploadedfile" type="file" />
+            
+            <input type="submit" value="Crear noticia" class="btn-enviar">
+            
+        </div>
+    </form>
+    </section>
+</main>
+        
+        
+        
+        
+        

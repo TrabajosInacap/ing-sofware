@@ -1,0 +1,29 @@
+@import url(footer.css);
+@import url(header.css);
+
+main{
+    width: 100%;
+    height: 660px;
+    margin-top: 100px;
+    justify-content: center;
+}
+section{
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+    justify-content: center;
+    margin:auto;
+    background: #f4f1bb;
+    border-radius:5%;
+    margin-bottom: 25px;
+}
+p{
+  margin-top: 10px;
+    font-size: 15px;
+}
+.titulos-presentacion{
+    height: 20px;
+}
+footer{
+    margin:0 !important;
+}

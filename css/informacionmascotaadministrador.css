@@ -1,0 +1,62 @@
+@import url(header.css);
+
+
+#h1titulo{
+    
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    
+    
+    
+}
+
+#tablapublicaciones {
+    
+    border: 1px solid black;
+    
+    
+}
+
+
+#a{
+    
+    height:120px ;
+    width: 60px ;
+}
+
+#b{
+    
+    height:120px ;
+    width: 60px ;
+}
+
+
+
+#d{
+    
+    height: 120px ;
+    width:60px ;
+}
+
+#buttonborrar
+{
+    width: 30%;
+    height: 30%;
+    align-content: center;
+    
+}
+
+a.estilohref {
+
+font-size: small;
+
+}
+
+#buttoneditar
+{
+    width: 30%;
+    height: 30%;
+    align-content: center;
+    
+}

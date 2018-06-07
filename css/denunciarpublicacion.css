@@ -1,0 +1,59 @@
+@import url(footer.css);
+@import url(header.css);
+main{
+    height: 660px;
+}
+.form-titulo{
+    background: red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px ;
+    border-top-right-radius: 7px ;
+    border-bottom: 5px solid crimson;
+    margin-top: 70px;
+}
+.form-register{
+    width: 98%;
+    max-width: 1000px;/*no pasara de 500px el ancho*/
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+background: #f4f1bb;
+}
+
+.btn-enviar{
+    background: crimson;
+    color:#fff;
+    margin: auto;
+    padding: 10px 40px;/*10 hacia arriba y 40 hacia los lados*/
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-enviar:hover{
+    background: red;
+}
+.contenedor-inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-inputs h1{
+    width: 100%;
+    margin-bottom: 10px;
+     text-align: center;
+    color: darkred;
+}
+.contenedor-inputs select{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contenedor-inputs textarea{
+    width: 80%;
+    margin: auto;
+}
+select{
+    width: 100%;
+    max-width: 300px;
+}

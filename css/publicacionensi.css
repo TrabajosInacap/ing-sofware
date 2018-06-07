@@ -1,0 +1,67 @@
+@import url(header.css);
+@import url(footer.css);
+main{
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+section{
+    max-width: 1000px;
+    justify-content: center;
+    margin:auto;
+    height: 300px;
+    position: relative;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+#sec-titulo h1{
+    font-size: 40px;
+}
+#sec-titulo p{
+    font-size: 20px;
+    color: solid white;
+}
+#sec-titulo img{
+    width: 50%;
+    height: 300px;
+}
+#sec-caracteristicas{
+    margin-top: 100px;
+    background: #f4f1bb;
+    border-top-left-radius: 10%;
+     border-top-right-radius: 10%;
+}
+
+#btn-denunciar{
+    background: crimson;
+    color:#fff;
+    margin: auto;
+    padding: 10px 40px;/*10 hacia arriba y 40 hacia los lados*/
+    cursor: pointer;
+    font-size: 15px;
+    float: right;
+}
+#btn-denunciar:hover{
+    background: red;
+    transform: scale(1);
+}
+.contacto{
+    margin-top: 60px;
+}
+
+#sec-comentarios{
+border-top: solid #000 3px;
+    
+}
+#sec-comentarios h1{
+    float: left;
+    color: #fff;
+    background: #333;
+    width: 1000px;
+}
+.float-left{
+    float: left;
+}

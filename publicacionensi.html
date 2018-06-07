@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear publicación</title>
+    <link rel="stylesheet" href="css/publicacionensi.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+   <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <header>
+        <div class="contenedor">
+            <h1 class="fas fa-dove">un nuevo hogar</h1>
+            
+            <input type="checkbox" id="menu-bar" name="menu-bar">
+            <label for="menu-bar" class="fas fa-bars" id="label"></label>
+            <nav class="menu">
+                <a href="">Buscar mascota</a>
+                <a href="">Informacion de mascotas</a>
+                <a href="">Noticias de mascotas</a>
+                <a href="">Nosotros</a>
+                <a href="">Administrador</a>
+            </nav>
+        
+        </div>
+    </header>
+<main>
+    <section id="sec-titulo">
+       <div class="contenedor">
+         <h1>Titulo publicacion</h1>
+        <p>Fecha publicación: 22/05/2018</p>
+        <img src="img/perro3.jpg" alt="">  
+       </div>
+    </section>
+    
+    <section id="sec-caracteristicas">
+       <div class="contenedor">
+           <p><h1>Microchip:</h1>si</p>
+           <p><h1>Ubicación:</h1>Brisas de maipu</p>
+        <p><h1>Caracteristicas:</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam error expedita reiciendis, vitae voluptate, autem dolorem quas asperiores velit sapiente maiores unde non ullam ducimus voluptatem ad illum eligendi!</p>
+        <div class="contacto">
+            <input type="button" value="denunciar publicación" id="btn-denunciar">
+        <p><h1 class="fas fa-phone">Telefono de contacto:</h1>+56930276933</p>
+        </div>
+        
+       </div> 
+    </section>
+    
+    <section id="sec-comentarios">
+       <div class="contenedor">
+          <h1>Comentarios de la publicacion</h1>
+           <div class="fb-comments" data-href="http://127.0.0.1:49473/publicacionensi.html" data-width="100%" data-numposts="4"></div>
+       </div>
+        
+    </section>
+</main>
+    <footer>
+       <div class="contenedor">
+           <p class="copy">Un nuevo hogar &copy; 2018</p>
+        <div class="sociales">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter-square"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+       </div>
+    </footer>
+</body>
+</html>
